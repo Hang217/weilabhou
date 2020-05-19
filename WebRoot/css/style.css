@@ -1,0 +1,172 @@
+.toper {
+	padding: 35px 10px 40px 10px;
+}
+
+.head-right {
+	padding-top: 10px;
+}
+
+@media ( min-width :760px) {
+	.head-right {
+		text-align: right;
+	}
+	.head-right span {
+		font-size: 20px;
+		vertical-align: baseline;
+	}
+}
+
+.nav-big a {
+	font-size: 16px;
+}
+
+.nav .drop-menu:empty {
+	display: none
+}
+
+.nav .drop-menu {
+	border-radius: 0 0 4px 4px;
+	min-width: 148px;
+}
+
+@media ( min-width :760px) {
+	.nav .drop-menu li a {
+		text-align: center;
+		padding: 7px 20px;
+	}
+}
+
+form .form-group:last-child {
+	padding-bottom: 0;
+}
+
+.footer {
+	background: #3e3e3e;
+	border-top: solid 5px #eee;
+	padding: 50px 0;
+}
+
+.contact {
+	color: #999;
+	padding: 12px 0;
+	font-size: 12px;
+	border-top: solid 1px #666;
+	border-bottom: solid 1px #666;
+	margin-top: -1px;
+}
+
+.share strong {
+	padding: 5px 0 5px 0;
+	color: #fc5741;
+	display: block;
+	line-height: 30px;
+	z-index: 999;
+}
+
+.share .sharebtn {
+	border-top: solid 1px #666;
+	border-bottom: solid 1px #666;
+	padding: 7px 0;
+	height: 43px;
+}
+
+.copyright {
+	background: #2e2e2e;
+	padding: 10px 0;
+	font-size: 12px;
+	color: #fc5741;
+}
+
+.copyright .pintuer {
+	color: #999;
+	text-align: left;
+}
+
+@media ( min-width :760px) {
+	.footnav .nav .active a {
+		border-bottom: solid 1px #fc5741;
+		background: transparent;
+	}
+	.bg-inverse .footnav .nav li a {
+		padding: 5px 10px 20px 10px;
+	}
+	.bg-inverse .footnav .nav li a:hover {
+		background: transparent;
+		color: #fc5741;
+	}
+	.share strong {
+		padding: 5px 0 20px 0;
+	}
+	.copyright .pintuer {
+		float: right;
+		text-align: right;
+	}
+}
+
+.services {
+	position: absolute;
+	width: 81px;
+	text-align: center;
+	right: 15px;
+	display: none;
+}
+
+.qq,.skype {
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.qq li,.skype li {
+	text-align: center;
+	display: inline-block;
+	width: 80px;
+	font-size: 12px;
+}
+
+.bdshare_dialog_box {
+	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+}
+
+.submenu .nav-head {
+	font-size: 16px;
+	height: 45px;
+	line-height: 43px;
+	background: #eee;
+}
+
+.submenu a {
+	padding: 10px 20px;
+}
+
+.jobs ul,.jobs ol {
+	margin-bottom: 20px;
+	line-height: 22px;
+}
+
+.detail h2,.detail h3 {
+	margin-bottom: 0.8em;
+}
+
+.detail img {
+	max-width: 100%;
+	height: auto;
+}
+
+.panel .bread {
+}
+
+
+}
+
+.panel .panel-head strong {
+	font-size: 16px;
+}
+
+@media ( max-width :760px) {
+	.detail img {
+		display: block;
+	}
+}

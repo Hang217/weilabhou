@@ -1,0 +1,157 @@
+/*订购*/
+.sku_ul {
+	CLEAR: left
+}
+.sku_ul LI {
+	MARGIN: 0px 6px 6px 0px; DISPLAY: inline-block; _zoom: 1
+}
+.sku_ul LI A {
+	BORDER-BOTTOM: #ceced0 1px solid; BORDER-LEFT: #ceced0 1px solid; PADDING-BOTTOM: 0px; LINE-HEIGHT: 30px; BACKGROUND-COLOR: #fafafa; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; DISPLAY: inline-block; BORDER-TOP: #ceced0 1px solid; BORDER-RIGHT: #ceced0 1px solid; PADDING-TOP: 0px; border-radius: 5px
+}
+.sku_ul LI .sku_cur {
+	BORDER-BOTTOM-COLOR: #ff5000; BORDER-TOP-COLOR: #ff5000; BORDER-RIGHT-COLOR: #ff5000; BORDER-LEFT-COLOR: #ff5000
+}
+.item_wrap {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BACKGROUND: #fafafa; OVERFLOW: hidden; PADDING-TOP: 10px; box-shadow: 0 1px 2px 2px #E4E4E4; border-radius: 5px
+}
+.item_wrap IMG {
+	MARGIN: 0px 10px 10px 0px; FLOAT: left
+}
+.item_tle {
+	MARGIN-TOP: 5px; FONT-SIZE: 15px; FONT-WEIGHT: 700
+}
+.item_pay {
+	COLOR: #999
+}
+.item_num {
+	BORDER-BOTTOM: #e3e3e3 1px solid; BORDER-LEFT: #e3e3e3 1px solid; LINE-HEIGHT: 28px; WIDTH: 60px; HEIGHT: 28px; COLOR: #000; FONT-SIZE: 14px; BORDER-TOP: #e3e3e3 1px solid; BORDER-RIGHT: #e3e3e3 1px solid
+}
+.orange_bg {
+	BACKGROUND-COLOR: #ff5000 !important
+}
+.gray_bg {
+	color:#000;BACKGROUND-COLOR: #bbbbbb !important
+}
+.c_txt {
+	TEXT-ALIGN: center
+}
+.lgbutton {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; LINE-HEIGHT: 40px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 100%; COLOR: #fff; FONT-SIZE: 16px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; box-shadow: 0 -1px 0 0 #d74300 inset; border-radius: 4px
+}
+
+/*分享遮挡*/
+.card_fx{
+	position:absolute;
+	z-index:1000;
+	height:200%;
+	width:100%;
+	background:rgba(0,0,0,0.5) url(../img/fx.png) no-repeat top right;
+	display:none;
+	background-size:contain;
+	left: 0; top: 0;
+}
+.waitcss{
+	position:absolute;
+	z-index:1000;
+	height:110%;
+	width:100%;
+	background:rgba(0,0,0,0.5) url(../img/waitme.png) no-repeat top right;
+	display:none;
+	background-size:contain;
+	left: 0; top: 0;
+}
+/*警告*/
+.alert{border-width:1px; border-style:dashed; border-top-width:1px; border-left-width:1px; border-right-width:1px; border-bottom-width:1px; border-color:#FF3304; margin:-1px; padding:4px; padding-top:4px; padding-left:7px;}
+
+/*hr*/
+.hr0{ height:1px;border:none;border-top:1px dashed #0066CC;}
+.hr1{ height:1px;border:none;border-top:1px solid #555555;}
+.hr2{ height:3px;border:none;border-top:3px double red;}
+.hr3{ height:5px;border:none;border-top:5px ridge green;}
+.hr4{ height:10px;border:none;border-top:10px groove skyblue;}
+
+/*头部顶栏*/
+.qqb-nav.fixed.fixed-top{z-index:8;background:#fff;width:100%;padding:0;border-bottom:solid 3px #0a8;-webkit-box-shadow:0 3px 6px rgba(0, 0, 0, .175);box-shadow:0 3px 6px rgba(0, 0, 0, .175);}
+
+/*WeUI Demos*/
+body, html {
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.demos-title {
+  text-align: center;
+  font-size: 28px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+
+.demos-sub-title {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}
+
+.demos-header {
+  padding: 10px 0;
+}
+
+.demos-content-padded {
+  padding: 15px;
+}
+
+.demos-second-title {
+  text-align: center;
+  font-size: 24px;
+  color: #3cc51f;
+  font-weight: 400;
+  margin: 0 15%;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px;
+}
+
+footer a {
+  color: #999;
+  text-decoration: none;
+}
+
+/*table from pintuer*/
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+td,
+th {
+	padding: 0;
+}
+/*表格*/
+
+.table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.table th {
+	border-bottom: 2px solid #ddd;
+	vertical-align: bottom;
+	padding: 8px;
+	text-align: left;
+}
+
+.table td {
+	border-top: 1px solid #ddd;
+	padding: 8px;
+	vertical-align: top;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+	background-color: #f9f9f9;
+}
